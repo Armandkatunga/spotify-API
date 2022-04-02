@@ -1,0 +1,28 @@
+{
+  "name": "spotify-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armandkatunga/spotify-api.git"
+  },
+  "author": "katunga cubaka armand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armandkatunga/spotify-api/issues"
+  },
+  "homepage": "https://github.com/Armandkatunga/spotify-api#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0"
+  }
+}
